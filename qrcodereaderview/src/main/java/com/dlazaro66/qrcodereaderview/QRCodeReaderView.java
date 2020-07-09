@@ -229,7 +229,7 @@ public class QRCodeReaderView extends SurfaceView
 
         try {
             mQRCodeReader = new QRCodeReader();
-            mCameraManager.startPreview();
+            //mCameraManager.startPreview();
         } catch (Exception e) {
             SimpleLog.e(TAG, "Exception: " + e.getMessage());
             mCameraManager.closeDriver();
